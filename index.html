@@ -1,56 +1,227 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Calculator</title>
-    <link href="style.css" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">-->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Unica+One&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Press+Start+2P&family=Unica+One&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=VT323&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Ubuntu+Mono&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+		<style>
+#header-img {
+max-width: 100px;
+flex: 1;
 
-</head>
-<body>
-    <div id="calculator">
-        <p id=screen></p>
-        <div id="keyboard">
-            <button id="clear">AC</button>
-            <button id="power">xʸ</button>
-            <button id="squared">x²</button>
-            <button id="delete">←</button>
-            
-            <button id="sqRoot">√x</button>
-            <button id="sign">+/-</button>
-            <button id="percentage">%</button>
-            <button class="operationButton" id="divide">÷</button>
+margin-left:30px;
+}
 
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-            <button class="operationButton" id="multiply">x</button>
+body {
+  background-color: #ded7d0;
 
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button>
-            <button class="operationButton" id="minus">-</button>
-
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button class="operationButton" id="plus">+</button>
-
-            <button id="zero">0</button>
-            <button id="decimal">.</button>
-            <button id="equals">=</button>
-    </div>
-    <p>made by <a href="https://github.com/Hrexandro">Hrexandro</a></p>
-</div>
+}
 
 
 
+#header {
+display:flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+background-color:#524940;
+position: sticky;
+top:0;
+border-radius:25px;
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+
+
+#navbar{
+flex:20;
+font-size: 30px;
+font-family: sans-serif;
+text-align: right;
+}
+
+#navbar a {
+text-decoration: none;
+color: #BABABA;
+margin-right:20px;
+
+position:relative;
+display: inline-block;
+
+
+font-family: pacifico, cursive;
+transition: all 1s ease-out;
+
+}
+@media only screen and (max-width: 600px){#navbar {
+font-size:1.2em;
+}
+}
+
+#navbar a:hover{
+
+transform: translateX(-10px);
+}
+
+
+
+#welcome-section {
+
+height:100vh;
+color: #524940;
+text-align:center;
+}
+
+h1 {
+font-size: 80px;
+font-family: bitter, sans-serif;
+margin-bottom:0px;
+margin-top:20vh;
+
+}
+
+h2 {
+font-size: 20px;
+font-family: bitter, sans-serif;
+margin:0px;}
+
+#projects {
+background: #524940;
+font-family: bitter, sans-serif;
+border-radius:25px;
+}
+
+#flexbox{
+display:flex;
+flex-direction: row
+align-items: space-between;
+justify-content: center;
+}
+
+
+
+#projects-head {
+font-size: 30px;
+color: #BABABA;
+text-align:center;
+font-family: bitter, sans-serif;
+padding-top: 60px;
+}
+
+#creature, #technical {
+height:300px;
+width: 300px;
+object-fit: contain;
+}
+
+#tribute {
+width:300px;
+padding-top:70px;
+}
+
+#logo-bg {
+
+height:300px;
+width: 300px;
+background-color: white;
+
+}
+
+
+
+#contact{
+display:flex;
+flex-direction: row
+align-items: space-between;
+justify-content: center;
+
+}
+
+#contact a{
+font-size: 30px;
+color: #524940;
+text-align:center;
+
+font-family: bitter, sans-serif;
+padding-top: 60px;
+text-decoration: none;
+transition: all 1s ease-out;
+}
+
+.profile-link{
+margin:90px;
+text-align: center;
+
+}
+
+#contact a:hover{
+
+transform: translateY(10px);
+}
+
+.project-title a {
+transition: all 1s ease-out; 
+text-decoration: none;
+text-align: center;
+color: #BABABA;}
+
+.projectt {
+margin:90px;
+text-align: center;
+transition: all 1s ease-out; 
+}
+
+.project-title {
+
+text-align: center;
+}
+
+.project-title a:hover {
+
+transform: translateY(10px);
+color:white;
+}
+
+		</style>
+
+		<html>
+
+			<body id="start">
+
+				<title>Hrexandro: my portfolio</title>
+						<header id="header">
+							<img src="https://pbs.twimg.com/profile_images/1283827795068686336/YWOjJbgr_400x400.jpg" alt="shield sticker" id="header-img">
+
+								<nav id="navbar">
+									<a class="nav-link" href="#start">about</a>
+									<a class="nav-link" href="#projects">projects</a>
+									<a class="nav-link" href="#contact">contact</a>
+								</nav>
+							</header>
+				<main id="main"> 
+					<section id="welcome-section">
+
+							<h1>Hrexandro</h1>
+							<h2>welcome to my portfolio page</h2>
+
+						</section>
+						<section id="projects">
+						<h2 id="projects-head">MY PROJECTS<h2>
+						<div id="flexbox">
+
+								<div class="projectt" >
+									<a href="https://hrexandro.github.io/etch-a-sketch"><img id="creature" class="project-image" src="images/etch.png" alt="etch-a-sketch">
+									<div class="project-title"><div id="project">Etch-a-sketch </a></div></div></div>
+
+
+								<div class="projectt" >
+								<a href="https://hrexandro.github.io/calculator/"><img id="creature" class="project-image" src="images/calc.png" alt="calculator">
+								<div class="project-title"><div id="project">JavaScript Calculator </a></div></div></div>
+								
+
+							</section>
+							</div>
+							<div id="contact">
+								<a class="profile-link" href="https://github.com/Hrexandro" target="_blank">github</a>
+								<a class="profile-link" href="https://twitter.com/hrexandro" target="_blank">twitter</a>
+								<a class="profile-link" href="https://hrexandrianscribblings.blogspot.com/" target="_blank">blogspot</a>
+							</div>
+						</main>
+					</body>
+
+				</html>
