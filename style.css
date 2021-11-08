@@ -1,0 +1,194 @@
+#header-img {
+    max-width: 100px;
+    flex: 1;
+    
+    margin-left:30px;
+    }
+    
+    body {
+      background-color: #ded7d0;
+    
+    }
+    
+    
+    
+    #header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color:#524940;
+    position: sticky;
+    top:0;
+    border-radius:25px;
+    }
+    
+    
+    
+    #navbar{
+    flex:20;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: right;
+    }
+    
+    #navbar a {
+    text-decoration: none;
+    color: #BABABA;
+    margin-right:20px;
+    
+    position:relative;
+    display: inline-block;
+    
+    
+    font-family: pacifico, cursive;
+    transition: all 1s ease-out;
+    
+    }
+    @media only screen and (max-width: 600px){#navbar {
+    font-size:1.2em;
+    }
+    }
+    
+    #navbar a:hover{
+    
+    transform: translateX(-10px);
+    }
+    
+    
+    
+    #welcome-section {
+    
+    height:65vh;
+    color: #524940;
+    text-align:center;
+    }
+
+    #description{
+        color: #524940;
+        text-align:center;
+        padding-bottom:50vh;
+        font-size: 20px;
+        font-family: bitter, sans-serif;
+        width: 50vw;
+        margin:0 auto
+    }
+
+    #mail{
+        color: #524940;
+        text-align:center;
+        font-size: 20px;
+        font-family: bitter, sans-serif;
+        padding-bottom:10px;
+    }
+
+    
+    h1 {
+    font-size: 80px;
+    font-family: bitter, sans-serif;
+    margin-bottom:0px;
+    margin-top:20vh;
+    
+    }
+    
+    h2 {
+    font-size: 20px;
+    font-family: bitter, sans-serif;
+    margin:0px;}
+    
+    #projects {
+    background: #524940;
+    font-family: bitter, sans-serif;
+    border-radius:25px;
+    }
+    
+    #flexbox{
+    display:flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+    }
+    
+    
+    
+    #projects-head {
+    font-size: 30px;
+    color: #BABABA;
+    text-align:center;
+    font-family: bitter, sans-serif;
+    padding-top: 60px;
+    }
+    
+    #creature, #technical {
+    height:300px;
+    width: 300px;
+    object-fit: contain;
+    }
+    
+    #tribute {
+    width:300px;
+    padding-top:70px;
+    }
+    
+    #logo-bg {
+    
+    height:300px;
+    width: 300px;
+    background-color: white;
+    
+    }
+    
+    
+    
+    #contact{
+    display:flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+    
+    }
+    
+    #contact a{
+    font-size: 30px;
+    color: #524940;
+    text-align:center;
+    
+    font-family: bitter, sans-serif;
+    padding-top: 60px;
+    text-decoration: none;
+    transition: all 1s ease-out;
+    }
+    
+    .profile-link{
+    margin:90px;
+    text-align: center;
+    
+    }
+    
+    #contact a:hover{
+    
+    transform: translateY(10px);
+    }
+    
+    .project-title a {
+    transition: all 1s ease-out; 
+    text-decoration: none;
+    text-align: center;
+    color: #BABABA;}
+    
+    .projectt {
+    margin:90px;
+    text-align: center;
+    transition: all 1s ease-out; 
+    }
+    
+    .project-title {
+    
+    text-align: center;
+    }
+    
+    .project-title a:hover {
+    
+    transform: translateY(10px);
+    color:white;
+    }
