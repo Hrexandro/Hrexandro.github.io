@@ -1,194 +1,264 @@
 #header-img {
     max-width: 100px;
     flex: 1;
-    
-    margin-left:30px;
-    }
-    
-    body {
-      background-color: #ded7d0;
-    
-    }
-    
-    
-    
-    #header {
-    display:flex;
+    margin-left: 30px;
+}
+
+body {
+    background-color: #ded7d0;
+}
+
+#header {
+    display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    background-color:#524940;
+    background-color: #524940;
     position: sticky;
-    top:0;
-    border-radius:25px;
-    }
-    
-    
-    
-    #navbar{
-    flex:20;
+    top: 0;
+    border-radius: 25px;
+}
+
+#navbar {
+    flex: 20;
     font-size: 30px;
     font-family: sans-serif;
     text-align: right;
-    }
-    
-    #navbar a {
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    justify-content: end;
+}
+
+#navbar a {
     text-decoration: none;
     color: #BABABA;
-    margin-right:20px;
-    
-    position:relative;
+    margin-right: 20px;
+    position: relative;
     display: inline-block;
-    
-    
     font-family: pacifico, cursive;
     transition: all 1s ease-out;
-    
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        font-size: 1.2em;
     }
-    @media only screen and (max-width: 600px){#navbar {
-    font-size:1.2em;
-    }
-    }
-    
-    #navbar a:hover{
-    
+}
+
+#navbar a:hover {
     transform: translateX(-10px);
-    }
-    
-    
-    
-    #welcome-section {
-    
-    height:65vh;
+}
+
+#welcome-section {
+    height: 65vh;
     color: #524940;
-    text-align:center;
-    }
+    text-align: center;
+}
 
-    #description{
-        color: #524940;
-        text-align:center;
-        padding-bottom:50vh;
-        font-size: 20px;
-        font-family: bitter, sans-serif;
-        width: 50vw;
-        margin:0 auto
-    }
-
-    #mail{
-        color: #524940;
-        text-align:center;
-        font-size: 20px;
-        font-family: bitter, sans-serif;
-        padding-bottom:10px;
-    }
-
-    
-    h1 {
-    font-size: 80px;
-    font-family: bitter, sans-serif;
-    margin-bottom:0px;
-    margin-top:20vh;
-    
-    }
-    
-    h2 {
+#description {
+    color: #524940;
+    text-align: center;
+    padding-bottom: 50vh;
     font-size: 20px;
     font-family: bitter, sans-serif;
-    margin:0px;}
-    
-    #projects {
+    width: 50vw;
+    margin: 0 auto
+}
+
+#mail {
+    color: #524940;
+    text-align: center;
+    font-size: 20px;
+    font-family: bitter, sans-serif;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: bitter, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 20vh;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: bitter, sans-serif;
+    margin: 0px;
+}
+
+#projects {
     background: #524940;
     font-family: bitter, sans-serif;
-    border-radius:25px;
-    }
-    
-    #flexbox{
-    display:flex;
+    border-radius: 25px;
+}
+
+#flexbox {
+    display: flex;
     flex-direction: row;
     align-items: space-between;
     justify-content: center;
-    }
-    
-    
-    
-    #projects-head {
+}
+
+#projects-head {
     font-size: 30px;
     color: #BABABA;
-    text-align:center;
+    text-align: center;
     font-family: bitter, sans-serif;
     padding-top: 60px;
-    }
-    
-    #creature, #technical {
-    height:300px;
+}
+
+#creature,
+#technical {
+    height: 300px;
     width: 300px;
     object-fit: contain;
-    }
-    
-    #tribute {
-    width:300px;
-    padding-top:70px;
-    }
-    
-    #logo-bg {
-    
-    height:300px;
+}
+
+#tribute {
+    width: 300px;
+    padding-top: 70px;
+}
+
+#logo-bg {
+    height: 300px;
     width: 300px;
     background-color: white;
-    
-    }
-    
-    
-    
-    #contact{
-    display:flex;
+}
+
+#contact {
+    display: flex;
     flex-direction: row;
     align-items: space-between;
     justify-content: center;
-    
-    }
-    
-    #contact a{
+}
+
+#contact a {
     font-size: 30px;
     color: #524940;
-    text-align:center;
-    
+    text-align: center;
     font-family: bitter, sans-serif;
     padding-top: 60px;
     text-decoration: none;
     transition: all 1s ease-out;
-    }
-    
-    .profile-link{
-    margin:90px;
+}
+
+.profile-link {
+    margin: 90px;
     text-align: center;
-    
-    }
-    
-    #contact a:hover{
-    
+}
+
+#contact a:hover {
     transform: translateY(10px);
-    }
-    
-    .project-title a {
-    transition: all 1s ease-out; 
+}
+
+.project-title a {
+    transition: all 1s ease-out;
     text-decoration: none;
     text-align: center;
-    color: #BABABA;}
-    
-    .projectt {
-    margin:90px;
+    color: #BABABA;
+}
+
+.projectt {
+    margin: 90px;
     text-align: center;
-    transition: all 1s ease-out; 
-    }
-    
-    .project-title {
-    
+    transition: all 1s ease-out;
+}
+
+.project-title {
     text-align: center;
-    }
-    
-    .project-title a:hover {
-    
+}
+
+.project-title a:hover {
     transform: translateY(10px);
-    color:white;
-    }
+    color: white;
+}
+
+.slider-description {
+    font-family: bitter, sans-serif;
+    font-size: 26px;
+    padding: 0 0.5vw 0 0.5vw;
+    color: #BABABA;
+}
+
+#slider-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: end;
+    margin-right: 0;
+}
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    padding-top: 1wh;
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 24px;
+    text-align: center;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(23px);
+    -ms-transform: translateX(23px);
+    transform: translateX(23px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 16px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

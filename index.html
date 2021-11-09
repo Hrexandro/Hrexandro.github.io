@@ -1,66 +1,93 @@
+<!DOCTYPE html>
+<html>
 
-		<!DOCTYPE html>
-		<html>
-			<head>
-				<title>Hrexandro: my portfolio</title>
-				<link rel="icon" href="images/face.jpg">
-				<link href="style.css" rel="stylesheet">
-				<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-				<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
-			</head>
+<head>
+    <title>Hrexandro: my portfolio</title>
+    <link rel="icon" href="images/face.jpg">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+</head>
 
-			<body id="start">
-
-				
-						<header id="header">
-							<img src="images/face.jpg" alt="shield sticker" id="header-img">
-
-								<nav id="navbar">
-									<a class="nav-link" href="#description">o mnie</a>
-									<a class="nav-link" href="#projects">projekty</a>
-									<a class="nav-link" href="#contact">kontakt</a>
-								</nav>
-							</header>
-				<main id="main"> 
-					<section id="welcome-section">
-
-							<h1>Marcin Łukasz Nowak</h1>
-							<h2>Webdev i tłumacz języka angielskiego</h2>
-
-						</section>
-						<section id="description">
-							<p>Jestem web developerem ze znajomością HTML, CSS i JavaScript, tworzę strony internetowe oraz aplikacje sieciowe. Poniżej można zapoznać się z kilkoma z moich projektów.</p>
-							<p>Zajmuję się również tłumaczeniami z języka angielskiego.</p>
-							
-						</section>
-						<section id="projects">
-						<h2 id="projects-head">MOJE PROJEKTY<h2>
-						<div id="flexbox">
-
-								<div class="projectt" >
-									<a href="https://hrexandro.github.io/etch-a-sketch"><img id="creature" class="project-image" src="images/etch.png" alt="etch-a-sketch">
-									<div class="project-title"><div id="project">Znikopis </a></div></div></div>
+<body id="start">
 
 
-								<div class="projectt" >
-								<a href="https://hrexandro.github.io/calculator/"><img id="creature" class="project-image" src="images/calc.png" alt="calculator">
-								<div class="project-title"><div id="project">Kalkulator </a></div></div></div>
-								
-								<div class="projectt" >
-								<a href="https://hrexandro.github.io/Library/"><img id="creature" class="project-image" src="images/library.png" alt="library">
-								<div class="project-title"><div id="project">Biblioteka </a></div></div></div>
+    <header id="header">
+        <img src="images/face.jpg" alt="shield sticker" id="header-img">
 
-							</section>
-							</div>
-							<div id="contact">
-								<a class="profile-link" href="https://github.com/Hrexandro" target="_blank">github</a>
-								<a class="profile-link" href="https://twitter.com/hrexandro" target="_blank">twitter</a>
-								<a class="profile-link" href="https://www.linkedin.com/in/marcin-nowak-744ba0146/" target="_blank">linkedin</a>
-							</div>
-							<section id="mail">
-							<div>e-mail: marcin.nowak.webdev@gmail.com</div>
-							</section>
-						</main>
-					</body>
+        <nav id="navbar">
+            <span id="link-container">
+            <a class="nav-link" href="#welcome-section">o mnie</a>
+            <a class="nav-link" href="#projects">projekty</a>
+            <a class="nav-link" href="#contact">kontakt</a>
+		</span>
+            <span id="slider-container">
+                <span class="slider-description">PL</span>
+            <label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label>
+            <span class="slider-description">ENG</span>
+            </span>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="welcome-section">
 
-				</html>
+            <h1>Marcin Łukasz Nowak</h1>
+            <h2>Webdev i tłumacz języka angielskiego</h2>
+
+        </section>
+        <section id="description">
+            <p>Jestem web developerem ze znajomością HTML, CSS i JavaScript, tworzę strony internetowe oraz aplikacje sieciowe. Poniżej można zapoznać się z kilkoma z moich projektów.</p>
+            <p>Zajmuję się również tłumaczeniami z języka angielskiego.</p>
+
+        </section>
+        <section id="projects">
+            <h2 id="projects-head">MOJE PROJEKTY
+                <h2>
+                    <div id="flexbox">
+
+                        <div class="projectt">
+                            <a href="https://hrexandro.github.io/etch-a-sketch"><img id="creature" class="project-image" src="images/etch.png" alt="etch-a-sketch">
+                                <div class="project-title">
+                                    <div id="project">Znikopis
+                            </a>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div class="projectt">
+                            <a href="https://hrexandro.github.io/calculator/"><img id="creature" class="project-image" src="images/calc.png" alt="calculator">
+                                <div class="project-title">
+                                    <div id="project">Kalkulator
+                            </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="projectt">
+                            <a href="https://hrexandro.github.io/Library/"><img id="creature" class="project-image" src="images/library.png" alt="library">
+                                <div class="project-title">
+                                    <div id="project">Biblioteka
+                            </a>
+                            </div>
+                            </div>
+                        </div>
+
+        </section>
+        </div>
+        <div id="contact">
+            <a class="profile-link" href="https://github.com/Hrexandro" target="_blank">github</a>
+            <a class="profile-link" href="https://twitter.com/hrexandro" target="_blank">twitter</a>
+            <a class="profile-link" href="https://www.linkedin.com/in/marcin-nowak-744ba0146/" target="_blank">linkedin</a>
+        </div>
+        <section id="mail">
+            <div>e-mail: marcin.nowak.webdev@gmail.com</div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
