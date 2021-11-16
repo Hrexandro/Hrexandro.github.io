@@ -9,11 +9,13 @@ body {
 }
 
 .translated {
-    animation: slide-up 1s ease-out;
+    animation: appear 1s ease-out;
+    display: inline-block;
+    transition: all 1s ease-out;
     /* transition: all 0.2s ease; */
 }
 
-@keyframes slide-up {
+@keyframes appear {
     0% {
         opacity: 0;
         /* transform: translateY(20px); */
@@ -135,6 +137,10 @@ h2 {
     height: 300px;
     width: 300px;
     object-fit: contain;
+}
+
+#projects-head-container {
+    text-align: center;
 }
 
 #tribute {
