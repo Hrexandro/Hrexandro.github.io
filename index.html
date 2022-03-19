@@ -1,96 +1,226 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Marcin Łukasz Nowak</title>
-    <link rel="icon" href="images/face.jpg">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Marcin Nowak - Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="start">
-
-
-    <header id="header">
-        <img src="images/face.jpg" alt="shield sticker" id="header-img">
-
-        <nav id="navbar">
-            <span id="link-container">
-            <a id="about-link" class="nav-link translated" href="#welcome-section"></a>
-            <a id="projects-link" class="nav-link translated" href="#projects"></a>
-            <a id="contact-link" class="nav-link translated" href="#contact"></a>
-		</span>
-            <span id="slider-container">
-                <span class="slider-description">PL</span>
-            <label class="switch" id="language-switch">
-						<input id="clicked-switch" type="checkbox">
-						<span class="slider round"></span>
-					</label>
-            <span class="slider-description">ENG</span>
-            </span>
-        </nav>
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Portfolio</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+            <li class="sidebar-nav-item"><a href="#about">About</a></li>
+            <li class="sidebar-nav-item"><a href="#services">Assets</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1">Marcin Nowak</h1>
+            <h3 class="mb-5"><em>JavaScript developer</em></h3>
+            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+        </div>
     </header>
-    <main id="main">
-        <section id="welcome-section">
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2>About me</h2>
+                    <p class="lead mb-5">
+                        I am a web developer with experience in HTML, CSS and JavsScript. I started coding in 2020 as a
+                        hobby and I am interested in junior developer positions with focus on JS.
 
-            <h1>Marcin Łukasz Nowak</h1>
-            <h2 id="job-title" class="translated"></h2>
-
-        </section>
-        <section id="description">
-            <p id="description-line-one" class="translated"></p>
-            <p id="description-line-two" class="translated"></p>
-
-        </section>
-        <section id="projects">
-            <div id="projects-head-container">
-                <h2 id="projects-head" class="translated">MOJE PROJEKTY</h2>
+                        I am currently employed in the purchasing department one of the leading international
+                        corporations in the HVAC sector. I finished university with a Master's degree in English
+                        translation, and have extensive professional experience in freelance English-Polish translation.
+                    </p>
+                    <a class="btn btn-dark btn-xl" href="#services">Why you should hire me?</a>
+                </div>
             </div>
-            <div id="flexbox">
-
-                <div class="projectt">
-                    <a href="https://hrexandro.github.io/etch-a-sketch"><img id="creature" class="project-image" src="images/etch.png" alt="etch-a-sketch">
-                        <div class="project-title">
-                            <h2 class="translated" id="project-etch-a-sketch">Znikopis</h2>
-                    </a>
-
-                    </div>
-                </div>
-
-
-                <div class="projectt">
-                    <a href="https://hrexandro.github.io/calculator/"><img id="creature" class="project-image" src="images/calc.png" alt="calculator">
-                        <div class="project-title">
-
-                            <h2 class="translated" id="project-calculator">Kalkulator</h2>
-                    </a>
-
-                    </div>
-                </div>
-
-                <div class="projectt">
-                    <a href="https://hrexandro.github.io/Library/"><img id="creature" class="project-image" src="images/library.png" alt="library">
-                        <div class="project-title">
-
-                            <h2 class="translated" id="project-library">Biblioteka</h2>
-                    </a>
-
-                    </div>
-                </div>
-
-        </section>
         </div>
-        <div id="contact">
-            <a class="profile-link" href="https://github.com/Hrexandro" target="_blank">github</a>
-            <a class="profile-link" href="https://twitter.com/hrexandro" target="_blank">twitter</a>
-            <a class="profile-link" href="https://www.linkedin.com/in/marcin-nowak-744ba0146/" target="_blank">linkedin</a>
+    </section>
+    <!-- Services-->
+    <section class="content-section bg-primary text-white text-center" id="services">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading">
+                <!-- <h3 class="text-secondary mb-0">Assets</h3> -->
+                <h2 class="mb-5">Assets</h2>
+            </div>
+            <div class="row row-cols-3 gx-4 gx-lg-5">
+                <div class="col-lg col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                    <h4><strong>Quick Learner</strong></h4>
+                    <p class="text-faded mb-0">Starting as an assembly line worker, I proved myself in the warehouse,
+                        logistics dept., then as a purchasing specialist.</p>
+                </div>
+                <div class="col-lg col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="far fa-comment-alt"></i></span>
+                    <h4><strong>Language skills</strong></h4>
+                    <p class="text-faded mb-0">With my English skills, international communication is no hassle.</p>
+                </div>
+                <div class="col-lg col-md-6 mb-5 mb-md-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                    <h4><strong>Corporate experience</strong></h4>
+                    <p class="text-faded mb-0">
+                        I'm used to working in a large corporation, seamlessly cooperating with multiple departments.
+                    </p>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <h4><strong>Question</strong></h4>
+                        <p class="text-faded mb-0">I mustache you a question...</p>
+                    </div> -->
+            </div>
         </div>
-        <section id="mail">
-            <div>e-mail: marcin.nowak.webdev@gmail.com</div>
-        </section>
-    </main>
-    <script src="script.js"></script>
+    </section>
+    <!-- Callout-->
+    <section class="callout">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mx-auto mb-5">
+                Check out my resume!
+            </h2>
+            <a class="btn btn-primary btn-xl" target="_blank" href="./assets/Marcin Nowak CV eng.pdf">Download
+                Now</a>
+        </div>
+    </section>
+    <!-- Portfolio-->
+    <section class="content-section" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h2 class="mb-5">Recent Projects</h2>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="_blank" href="https://hrexandro.github.io/memory/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Memory</div>
+                                <p class="mb-0">A popular children's card game to jog your... memory.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-1.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="_blank" href="https://hrexandro.github.io/restaurant-page">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Restaurant page</div>
+                                <p class="mb-0">An example restaurant page, dynamically generated with JavaScript with the use of Webpack.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-2.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="_blank" href="https://hrexandro.github.io/Library/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Library</div>
+                                <p class="mb-0">Library app that lets you store and modify a list of books, toggle their status and sort them according to various criteria. Maintains a count of all the books and uses Local Storage to store data for future use.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-3.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="_blank" href="https://hrexandro.github.io/etch-a-sketch/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Etch-a-sketch</div>
+                                <p class="mb-0">Sketchpad for painting inside your browser!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-5.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="https://hrexandro.github.io/Tic-Tac-Toe/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Tic-tac-toe</div>
+                                <p class="mb-0">A Tic-tac-toe game to play in your browser. Including an unbeatable mode.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-4.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="_blank" href="https://hrexandro.github.io/calculator/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Calculator</div>
+                                <p class="mb-0">A calculator app coded in JavaScript.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-6.png" alt="..." />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action --> <!--Add something here later, no point for the buttons as of now. -->
+    <!-- <section class="content-section bg-primary text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+            <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+            <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+        </div>
+    </section> -->
+    <!-- Map-->
+    <!-- <div class="map" id="contact">
+            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+        </div> -->
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container px-4 px-lg-5">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="mailto:marcin.nowak.webdev@gmail.com"><i
+                            class="far fa-envelope"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://twitter.com/hrexandro"><i
+                            class="icon-social-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" target="_blank" href="https://github.com/Hrexandro"><i class="icon-social-github"></i></a>
+                </li>
+            </ul>
+            <p class="text-muted small mb-0">Marcin Nowak 2022</p>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
